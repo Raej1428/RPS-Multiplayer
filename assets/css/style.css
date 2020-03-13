@@ -1,0 +1,39 @@
+body {
+  font-family: "Sen", sans-serif;
+}
+
+button {
+  background: none;
+  border-color: gold;
+  border-width: 10px;
+  border-style: outset;
+}
+
+#containerButtons {
+  padding-bottom: 50px;
+}
+
+#imgButton {
+  padding: 3px;
+  font-family: "Sen", sans-serif;
+  text-align: center;
+}
+
+#imgBtnPic {
+  height: 150px;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+#gameContainer {
+  border-color: lightslategrey;
+  border-width: 5px;
+  border-style: outset;
+  padding: 10px;
+}
+
+#fluidJumbo {
+    background-color: rgba(245, 235, 178, 0.788);
+padding-left: 25px;
+}
