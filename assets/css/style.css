@@ -1,16 +1,22 @@
 body {
+  background-color: #cccccc;
+  background-image: linear-gradient(rgb(236, 143, 143),  rgba(245, 245, 115, 0.74), rgba(245, 245, 115, 0.74),rgb(145, 243, 158));
   font-family: "Sen", sans-serif;
 }
 
 button {
-  background: none;
-  border-color: gold;
-  border-width: 10px;
+  background: whitesmoke;
+  border-color: rgb(255, 251, 0);
+  border-width: 3px;
   border-style: outset;
+}
+.container {
+  background-color: rgba(240, 255, 240, 0.336);
 }
 
 #containerButtons {
   padding-bottom: 50px;
+  padding-top: 10px;
 }
 
 #imgButton {
@@ -29,11 +35,10 @@ button {
 #gameContainer {
   border-color: lightslategrey;
   border-width: 5px;
-  border-style: outset;
+  border-style: solid;
   padding: 10px;
 }
 
 #fluidJumbo {
-    background-color: rgba(245, 235, 178, 0.788);
-padding-left: 25px;
+  padding-left: 25px;
 }
