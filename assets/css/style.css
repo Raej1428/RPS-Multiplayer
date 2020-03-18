@@ -1,44 +1,78 @@
 body {
-  background-color: #cccccc;
-  background-image: linear-gradient(rgb(236, 143, 143),  rgba(245, 245, 115, 0.74), rgba(245, 245, 115, 0.74),rgb(145, 243, 158));
+  background-image: linear-gradient(
+    pink,
+    rgb(238, 201, 184),
+    rgb(243, 243, 193),
+    rgb(180, 245, 180)
+  );
+  color: darkblue;
   font-family: "Sen", sans-serif;
 }
 
-button {
-  background: whitesmoke;
-  border-color: rgb(255, 251, 0);
-  border-width: 3px;
-  border-style: outset;
-}
 .container {
-  background-color: rgba(240, 255, 240, 0.336);
+  background-color: rgba(255, 255, 255, 0.267);
 }
 
-#containerButtons {
-  padding-bottom: 50px;
-  padding-top: 10px;
+.jumbotron {
+  text-align: center;
+  background-image: url("../images/instructions.png");
+ 
 }
 
-#imgButton {
-  padding: 3px;
-  font-family: "Sen", sans-serif;
+h2,
+#feedback {
   text-align: center;
 }
-
-#imgBtnPic {
-  height: 150px;
+.img3 {
+  height: 100px;
   width: auto;
-  margin: 10px;
-  padding: 10px;
 }
 
-#gameContainer {
-  border-color: lightslategrey;
+#strawberry,
+#pineapple,
+#blender {
+  background-color: white;
+  border-color: rgb(241, 241, 173);
   border-width: 5px;
   border-style: solid;
-  padding: 10px;
 }
 
-#fluidJumbo {
-  padding-left: 25px;
+#player-1,
+#player-2 {
+  padding: 20px;
+}
+
+.pre-login,
+.post-login,
+.pending-login,
+.selections,
+.pending-selection,
+.selection-made,
+.selection-reveal,
+.stats {
+  display: none;
+}
+
+form[role="login"] {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.selections {
+  margin: 0 auto;
+}
+
+.system {
+  color: grey;
+}
+
+#footerImg {
+  padding-left: 200px;
+  height: 500px;
+  width: auto;
+}
+
+#gifs-appear-here {
+    padding: 20px;
+    margin: auto;
 }
