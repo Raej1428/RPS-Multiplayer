@@ -14,7 +14,6 @@ firebase.initializeApp(firebaseConfig);
 // database connection references
 var db = firebase.database();
 var playersRef = db.ref("/players");
-// var chatRef = db.ref("/chat");
 var connectedRef = db.ref(".info/connected");
 
 // global vars to keep track of all player data locally
